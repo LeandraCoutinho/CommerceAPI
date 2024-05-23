@@ -9,32 +9,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e55f798e-94b6-4be1-b07f-3b4279488a2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/MP.ApiDotNet6.Api.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/WeatherForecast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Class1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/MP.ApiDotNet6.Application.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Class1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/Person.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/Product.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/Purchase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/MP.ApiDotNet6.Domain.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Validations/DomainValidationException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Class1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Context/ApplicationDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/MP.ApiDotNet6.Infra.Data.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PersonMap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/Class1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/MP.ApiDotNet6.Infra.IoC.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IPersonRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IProductRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IPurchaseRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/ProductMap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PurchaseMap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/PersonRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/ProductRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/PurchaseRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Context/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Context/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PersonMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PersonMap.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +50,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -123,7 +108,8 @@
       <updated>1716395843334</updated>
       <workItem from="1716395844534" duration="5965000" />
       <workItem from="1716411513392" duration="1794000" />
-      <workItem from="1716421687723" duration="1415000" />
+      <workItem from="1716421687723" duration="4333000" />
+      <workItem from="1716468323777" duration="3358000" />
     </task>
     <servers />
   </component>

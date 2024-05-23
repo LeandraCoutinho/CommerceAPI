@@ -9,7 +9,6 @@ public class PersonMap : IEntityTypeConfiguration<Person>
     public void Configure(EntityTypeBuilder<Person> builder)
     {
         builder.ToTable("Pessoas");
-
         builder.HasKey(c => c.Id);
 
         builder.Property(c => c.Id)
