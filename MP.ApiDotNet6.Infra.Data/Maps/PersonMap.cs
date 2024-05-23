@@ -12,7 +12,7 @@ public class PersonMap : IEntityTypeConfiguration<Person>
         builder.HasKey(c => c.Id);
 
         builder.Property(c => c.Id)
-            .HasColumnName("IdPessoa")
+            .HasColumnName("Idpessoa")
             .UseIdentityColumn();
 
         builder.Property(c => c.Document)

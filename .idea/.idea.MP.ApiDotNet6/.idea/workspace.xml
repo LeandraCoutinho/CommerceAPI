@@ -9,16 +9,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e55f798e-94b6-4be1-b07f-3b4279488a2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/PersonDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/Validations/PersonDTOValidatior.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/ErrorValidation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Mapping/DomainToDtoMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Mapping/DtoToDomainMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/Interfaces/IPersonService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/PersonService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/ResultService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/DependencyInjection.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/MP.ApiDotNet6.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/MP.ApiDotNet6.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/Purchase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/Purchase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PersonMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PersonMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/ProductMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/ProductMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PurchaseMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PurchaseMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/MP.ApiDotNet6.Infra.IoC.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/MP.ApiDotNet6.Infra.IoC.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,8 @@
       <workItem from="1716421687723" duration="4333000" />
       <workItem from="1716468323777" duration="5256000" />
       <workItem from="1716480537598" duration="547000" />
-      <workItem from="1716481640844" duration="3825000" />
+      <workItem from="1716481640844" duration="6206000" />
+      <workItem from="1716496013457" duration="1336000" />
     </task>
     <servers />
   </component>

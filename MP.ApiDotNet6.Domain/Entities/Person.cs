@@ -14,6 +14,7 @@ public sealed class Person
     public Person(string name, string document, string phone)
     {
         Validation(name, document, phone);
+        Purchases = new List<Purchase>();
     }
     
     // para editar uma pessoa existente
@@ -22,6 +23,7 @@ public sealed class Person
         DomainValidationException.When(id < 0, "Id deve ser maior que zero");
         Id = id; // caso esteja correto
         Validation(name, document, phone);
+        Purchases = new List<Purchase>();
     }
 
     private void Validation(string name, string document, string phone)

@@ -8,12 +8,21 @@
 
     <ItemGroup>
       <Compile Remove="Class1.cs" />
+      <Compile Remove="DependencyInjetion\**" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\MP.ApiDotNet6.Application\MP.ApiDotNet6.Application.csproj" />
       <ProjectReference Include="..\MP.ApiDotNet6.Domain\MP.ApiDotNet6.Domain.csproj" />
       <ProjectReference Include="..\MP.ApiDotNet6.Infra.Data\MP.ApiDotNet6.Infra.Data.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="DependencyInjetion\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="DependencyInjetion\**" />
     </ItemGroup>
 
 </Project>
