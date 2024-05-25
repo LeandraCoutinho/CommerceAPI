@@ -10,16 +10,16 @@ public class PersonDTOValidatior : AbstractValidator<PersonDTO>
         RuleFor(x => x.Document)
             .NotEmpty()
             .NotNull()
-            .WithMessage("Documento deve ser informado");
+            .WithMessage("Documento deve ser informado!");
 
         RuleFor(x => x.Name)
             .NotNull()
             .NotEmpty()
-            .WithMessage("Nome deve ser infotmado");
+            .WithMessage("Nome deve ser informado!");
 
         RuleFor(x => x.Phone)
             .NotEmpty()
             .NotNull()
-            .WithMessage("Celular deve ser informado");
+            .WithMessage("Celular deve ser informado!");
     }
 }

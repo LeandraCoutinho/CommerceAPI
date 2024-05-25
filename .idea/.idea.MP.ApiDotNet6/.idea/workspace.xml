@@ -9,12 +9,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e55f798e-94b6-4be1-b07f-3b4279488a2a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/ProductDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/Validations/ProductDTOValidator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/PersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/PersonController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/MP.ApiDotNet6.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/MP.ApiDotNet6.Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/Interfaces/IPersonService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/Interfaces/IPersonService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/PersonService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/PersonService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/Validations/PersonDTOValidatior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/Validations/PersonDTOValidatior.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +117,7 @@
       <workItem from="1716582490907" duration="8412000" />
       <workItem from="1716596013643" duration="2866000" />
       <workItem from="1716648290078" duration="964000" />
-      <workItem from="1716652189865" duration="1393000" />
+      <workItem from="1716652189865" duration="3246000" />
     </task>
     <servers />
   </component>
