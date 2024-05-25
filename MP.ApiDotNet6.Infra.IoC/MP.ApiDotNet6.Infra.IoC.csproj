@@ -25,4 +25,9 @@
       <None Remove="DependencyInjetion\**" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="MySql.EntityFrameworkCore" Version="8.0.2" />
+      <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+    </ItemGroup>
+
 </Project>

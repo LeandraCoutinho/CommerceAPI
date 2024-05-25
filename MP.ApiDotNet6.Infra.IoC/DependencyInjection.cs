@@ -14,13 +14,17 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddInfraestructure(this IServiceCollection services, IConfiguration configuration)
     {
+        var connectionString = configuration.GetConnectionString("DefaultConnection");
+        var serverVersion = new MySqlServerVersion(ServerVersion.AutoDetect(connectionString));
+        
         services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseNpgsql(configuration.GetConnectionString("")));
+            options.UseMySql(connectionString, serverVersion));
 
         services.AddScoped<IPersonRepository, PersonRepository>();
+
         return services;
     }
-
+    
     public static IServiceCollection AddServices(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddAutoMapper(typeof(DomainToDtoMapping));

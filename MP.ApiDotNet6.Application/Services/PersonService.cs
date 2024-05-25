@@ -19,16 +19,16 @@ public class PersonService : IPersonService
         _mapper = mapper;
     }
 
-    public async Task<ResultService<PersonDTO>> CreateAsync(PersonDTO personDTO)
+    public async Task<ResultService<PersonDTO>> CreateAsync(PersonDTO personDto)
     {
-        if (personDTO == null)
+        if (personDto == null)
             return ResultService.Fail<PersonDTO>("Objeto deve ser informado");
 
-        var result = new PersonDTOValidatior().Validate(personDTO);
+        var result = new PersonDTOValidatior().Validate(personDto);
         if (!result.IsValid)
             return ResultService.RequestError<PersonDTO>("problemas de validade", result);
 
-        var person = _mapper.Map<Person>(personDTO);
+        var person = _mapper.Map<Person>(personDto);
         var data = await _personRepository.CreateAsync(person);
         return ResultService.Ok<PersonDTO>(_mapper.Map<PersonDTO>(data));
     }
