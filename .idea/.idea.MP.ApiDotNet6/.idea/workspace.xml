@@ -9,17 +9,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e55f798e-94b6-4be1-b07f-3b4279488a2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/PersonController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/PersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/PersonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/MP.ApiDotNet6.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/MP.ApiDotNet6.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/Interfaces/IPersonService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/Interfaces/IPersonService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/PersonService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/PersonService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/ResultService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/ResultService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/MP.ApiDotNet6.Infra.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/MP.ApiDotNet6.Infra.Data.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PersonMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PersonMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/ProductMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/ProductMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PurchaseMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PurchaseMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/DependencyInjection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/MP.ApiDotNet6.Infra.IoC.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/MP.ApiDotNet6.Infra.IoC.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +32,9 @@
     <setting file="file://$PROJECT_DIR$/MP.ApiDotNet6.Domain/Class1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Class1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -119,7 +117,9 @@
       <workItem from="1716496013457" duration="2183000" />
       <workItem from="1716551521287" duration="3934000" />
       <workItem from="1716582490907" duration="8412000" />
-      <workItem from="1716596013643" duration="299000" />
+      <workItem from="1716596013643" duration="2866000" />
+      <workItem from="1716648290078" duration="964000" />
+      <workItem from="1716652189865" duration="1393000" />
     </task>
     <servers />
   </component>

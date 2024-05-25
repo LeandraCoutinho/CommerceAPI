@@ -14,4 +14,9 @@
       <ProjectReference Include="..\MP.ApiDotNet6.Infra.IoC\MP.ApiDotNet6.Infra.IoC.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="Controllers\WeatherForecastController.cs" />
+      <Compile Remove="WeatherForecast.cs" />
+    </ItemGroup>
+
 </Project>
