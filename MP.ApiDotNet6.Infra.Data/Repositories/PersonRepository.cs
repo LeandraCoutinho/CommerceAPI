@@ -42,7 +42,7 @@ public class PersonRepository : IPersonRepository
         await _db.SaveChangesAsync();
     }
 
-    public Task<int> GetByIdDocumentAsync(string document)
+    public async Task<int> GetByIdDocumentAsync(string document)
     {
         return (await _db.People.FirstOrDefaultAsync(x => x.Document == document))?.Id ?? 0;
     }
