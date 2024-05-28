@@ -35,7 +35,7 @@ public class ProductService : IProductService
 
     public async Task<ResultService<ICollection<ProductDTO>>> GetAsync()
     {
-        var products = await _productRepository.GetPeopleAsync();
+        var products = await _productRepository.GetProductsAsync();
         return ResultService.Ok<ICollection<ProductDTO>>(_mapper.Map<ICollection<ProductDTO>>(products));
     }
 

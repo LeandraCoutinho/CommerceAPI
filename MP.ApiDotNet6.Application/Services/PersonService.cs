@@ -24,7 +24,7 @@ public class PersonService : IPersonService
         if (personDto == null)
             return ResultService.Fail<PersonDTO>("Objeto deve ser informado");
 
-        var result = new PersonDTOValidatior().Validate(personDto);
+        var result = new PersonDTOValidator().Validate(personDto);
         if (!result.IsValid)
             return ResultService.RequestError<PersonDTO>("Problemas de validação", result);
 
@@ -53,7 +53,7 @@ public class PersonService : IPersonService
         if (personDto == null)
             return ResultService.Fail("Objeto deve ser informado");
 
-        var validation = new PersonDTOValidatior().Validate(personDto);
+        var validation = new PersonDTOValidator().Validate(personDto);
         if (!validation.IsValid)
             return ResultService.RequestError("Problemas com a validação de campos", validation);
 

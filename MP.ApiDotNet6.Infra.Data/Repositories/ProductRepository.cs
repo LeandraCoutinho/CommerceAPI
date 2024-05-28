@@ -18,7 +18,7 @@ public class ProductRepository : IProductRepository
         return await _db.Products.FirstOrDefaultAsync(x => x.Id == id);
     }
 
-    public async Task<ICollection<Product>> GetPeopleAsync()
+    public async Task<ICollection<Product>> GetProductsAsync()
     {
         return await _db.Products.ToListAsync();
     }
@@ -40,5 +40,10 @@ public class ProductRepository : IProductRepository
     {
         _db.Remove(product);
         await _db.SaveChangesAsync();
+    }
+
+    public async Task<int> GetByIdCodErpAsync(string codErp)
+    {
+        return (await _db.Products.FirstOrDefaultAsync(x => x.CodErp == codErp))?.Id ?? 0;
     }
 }

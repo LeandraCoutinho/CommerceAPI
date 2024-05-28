@@ -2,10 +2,10 @@ using FluentValidation;
 
 namespace MP.ApiDotNet6.Application.DTOs.Validations;
 
-public class PersonDTOValidatior : AbstractValidator<PersonDTO>
+public class PersonDTOValidator : AbstractValidator<PersonDTO>
 {
     // vai validar os dados que vem de fora
-    public PersonDTOValidatior()
+    public PersonDTOValidator()
     {
         RuleFor(x => x.Document)
             .NotEmpty()

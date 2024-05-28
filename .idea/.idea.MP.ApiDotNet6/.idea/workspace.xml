@@ -9,11 +9,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e55f798e-94b6-4be1-b07f-3b4279488a2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/ProductController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/Interfaces/IProductService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/ProductService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/PurchaseDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/Validations/PurchaseDTOValidator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/Validations/PersonDTOValidatior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/Validations/PersonDTOValidator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/PersonService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/PersonService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/ProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/ProductService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IPersonRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IPersonRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IProductRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/ProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/ProductRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +125,8 @@
       <workItem from="1716652189865" duration="9955000" />
       <workItem from="1716826319367" duration="297000" />
       <workItem from="1716827964876" duration="6624000" />
-      <workItem from="1716854628730" duration="2843000" />
+      <workItem from="1716854628730" duration="4777000" />
+      <workItem from="1716916949025" duration="962000" />
     </task>
     <servers />
   </component>

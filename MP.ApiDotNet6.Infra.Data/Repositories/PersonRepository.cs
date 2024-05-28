@@ -41,4 +41,9 @@ public class PersonRepository : IPersonRepository
         _db.Remove(person);
         await _db.SaveChangesAsync();
     }
+
+    public Task<int> GetByIdDocumentAsync(string document)
+    {
+        return (await _db.People.FirstOrDefaultAsync(x => x.Document == document))?.Id ?? 0;
+    }
 }
