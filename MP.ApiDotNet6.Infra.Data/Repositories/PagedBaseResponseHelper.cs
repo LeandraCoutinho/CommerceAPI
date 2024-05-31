@@ -10,7 +10,7 @@ public static class PagedBaseResponseHelper
         where TResponse : PagedBaseResponse<T>, new()
     {
         var response = new TResponse();
-        var count = await query.CountAsync();
+        var count = await query.CountAsync(); // conta o numero de itens na consulta
         response.TotalPages = (int)Math.Abs((double)count / request.PageSize);
         if (string.IsNullOrEmpty(request.OrderByProperty))
             response.Data = await query.ToListAsync();

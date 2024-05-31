@@ -9,11 +9,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e55f798e-94b6-4be1-b07f-3b4279488a2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IUnitOfWork.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/UnitOfWork.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/UserControllercs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/UserDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/Validations/UserDTOValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/Interfaces/IUserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/UserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Authentication/ITokenGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IUserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Authentication/TokenGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/UserMap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/UserRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/PurchaseDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/PurchaseDTO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/PurchaseService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/PurchaseService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/PersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/PersonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Context/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Context/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/MP.ApiDotNet6.Infra.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/MP.ApiDotNet6.Infra.Data.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/PagedBaseResponseHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/PagedBaseResponseHelper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/DependencyInjection.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +140,12 @@
       <workItem from="1716932704180" duration="2954000" />
       <workItem from="1716935840756" duration="3132000" />
       <workItem from="1716989629076" duration="2205000" />
-      <workItem from="1716997147664" duration="8276000" />
+      <workItem from="1716997147664" duration="8466000" />
+      <workItem from="1717018510774" duration="3195000" />
+      <workItem from="1717094716967" duration="3501000" />
+      <workItem from="1717100378442" duration="7152000" />
+      <workItem from="1717179317296" duration="1739000" />
+      <workItem from="1717187468381" duration="754000" />
     </task>
     <servers />
   </component>
