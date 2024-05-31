@@ -9,12 +9,14 @@ public sealed class Person
     public string Document { get; private set; }
     public string Phone { get; private set; }
     public ICollection<Purchase> Purchases { get; set; }
+    public ICollection<PersonImage> PersonImages { get; set; }
     
     // para adicionar uma nova pessoa
     public Person(string name, string document, string phone)
     {
         Validation(name, document, phone);
         Purchases = new List<Purchase>();
+        PersonImages = new List<PersonImage>();
     }
     
     // para editar uma pessoa existente

@@ -28,6 +28,8 @@ public class PersonMap : IEntityTypeConfiguration<Person>
             .WithOne(p => p.Person)
             .HasForeignKey(c => c.PersonId);
 
-
+        builder.HasMany(c => c.PersonImages)
+            .WithOne(p => p.Person)
+            .HasForeignKey(x => x.PersonId);
     }
 }
