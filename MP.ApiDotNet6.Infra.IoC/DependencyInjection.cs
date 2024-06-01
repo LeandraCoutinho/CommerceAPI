@@ -5,9 +5,11 @@ using MP.ApiDotNet6.Application.Mapping;
 using MP.ApiDotNet6.Application.Services;
 using MP.ApiDotNet6.Application.Services.Interfaces;
 using MP.ApiDotNet6.Domain.Authentication;
+using MP.ApiDotNet6.Domain.Integrations;
 using MP.ApiDotNet6.Domain.Repositories;
 using MP.ApiDotNet6.Infra.Data.Authentication;
 using MP.ApiDotNet6.Infra.Data.Context;
+using MP.ApiDotNet6.Infra.Data.Integrations;
 using MP.ApiDotNet6.Infra.Data.Repositories;
 
 namespace MP.ApiDotNet6.Infra.IoC;
@@ -28,7 +30,9 @@ public static class DependencyInjection
         services.AddScoped<IUnitOfWork, UnitOfWork>();
         services.AddScoped<ITokenGenerator, TokenGenerator>();
         services.AddScoped<IUserRepository, UserRepository>();
-
+        services.AddScoped<IPersonImageRepository, PersonImageRepository>();
+        services.AddScoped<ISavePersonImage, SavePersonImage>();
+        
         return services;
     }
     
@@ -39,6 +43,7 @@ public static class DependencyInjection
         services.AddScoped<IProductService, ProductService>();
         services.AddScoped<IPurchaseService, PurchaseService>();
         services.AddScoped<IUserService, UserService>();
+        services.AddScoped<IPersonImageService, PersonImageService>();
         
         return services;
     }

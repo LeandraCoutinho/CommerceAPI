@@ -8,7 +8,7 @@ public class PersonImageMap : IEntityTypeConfiguration<PersonImage>
 {
     public void Configure(EntityTypeBuilder<PersonImage> builder)
     {
-        builder.ToTable("pessoaiamgem");
+        builder.ToTable("pessoaimagem");
         builder.HasKey(x => x.Id);
 
         builder.Property(x => x.Id)
@@ -19,10 +19,10 @@ public class PersonImageMap : IEntityTypeConfiguration<PersonImage>
             .HasColumnName("idpessoa");
 
         builder.Property(x => x.ImageBase)
-            .HasColumnName("iamgembase");
+            .HasColumnName("imagembase");
 
         builder.Property(x => x.ImageUrl)
-            .HasColumnName("iamgemurl");
+            .HasColumnName("imagemurl");
 
         builder.HasOne(x => x.Person)
             .WithMany(x => x.PersonImages);
