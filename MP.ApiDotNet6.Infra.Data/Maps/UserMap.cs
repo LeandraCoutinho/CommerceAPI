@@ -10,15 +10,20 @@ public class UserMap : IEntityTypeConfiguration<User>
     {
         builder.ToTable("usuario");
 
-        builder.HasKey(u => u.Id);
+        builder.HasKey(c => c.Id);
 
-        builder.Property(u => u.Id)
-            .HasColumnName("idusuario");
+        builder.Property(c => c.Id)
+            .HasColumnName("idusuario")
+            .UseIdentityColumn();
 
-        builder.Property(u => u.Email)
+        builder.Property(c => c.Email)
             .HasColumnName("email");
 
-        builder.Property(u => u.Password)
+        builder.Property(c => c.Password)
             .HasColumnName("senha");
+
+        builder.HasMany(x => x.UserPermissions)
+            .WithOne(p => p.User)
+            .HasForeignKey(p => p.UserId);
     }
 }

@@ -9,16 +9,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e55f798e-94b6-4be1-b07f-3b4279488a2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/PersonImageController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/PersonImageDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/Validations/PersonImageDTOValidation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/Interfaces/IPersonImageService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/PersonImageService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Integrations/ISavePersonImage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Integrations/SavePersonImage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Authentication/CurrentUser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/BaseController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Authentication/ICurrentUser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/Permission.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/UserPermission.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PermissionMap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/UserPermissionMap.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PersonImageMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PersonImageMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/DependencyInjection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/PersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/PersonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/PagedBaseResponseDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/PagedBaseResponseDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/MP.ApiDotNet6.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/MP.ApiDotNet6.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IUserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Authentication/TokenGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Authentication/TokenGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/UserMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/UserMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/PagedBaseResponseHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/PagedBaseResponseHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/UserRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +42,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/MP.ApiDotNet6.Application/Class1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MP.ApiDotNet6.Domain/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/leand/RiderProjects/MP.ApiDotNet6/MP.ApiDotNet6.Domain/Repositories/IUserRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Class1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/Class1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -139,14 +149,35 @@
       <workItem from="1717179317296" duration="1739000" />
       <workItem from="1717187468381" duration="3341000" />
       <workItem from="1717248919524" duration="5724000" />
-      <workItem from="1717258821559" duration="7819000" />
+      <workItem from="1717258821559" duration="9966000" />
+      <workItem from="1717417502661" duration="5943000" />
+      <workItem from="1717425765183" duration="2435000" />
+      <workItem from="1717429700363" duration="7464000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

@@ -8,6 +8,15 @@
 
     <ItemGroup>
       <Compile Remove="Class1.cs" />
+      <Compile Remove="Permission\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Permission\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Permission\**" />
     </ItemGroup>
 
 </Project>
