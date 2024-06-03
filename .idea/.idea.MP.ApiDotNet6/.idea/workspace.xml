@@ -9,24 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e55f798e-94b6-4be1-b07f-3b4279488a2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Authentication/CurrentUser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/BaseController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Authentication/ICurrentUser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/Permission.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/UserPermission.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PermissionMap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/UserPermissionMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/PersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/PersonController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/PagedBaseResponseDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/PagedBaseResponseDTO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/MP.ApiDotNet6.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Api/MP.ApiDotNet6.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/MP.ApiDotNet6.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Application/MP.ApiDotNet6.Application.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/MP.ApiDotNet6.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/MP.ApiDotNet6.Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IUserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Authentication/TokenGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Authentication/TokenGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/UserMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/UserMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/PagedBaseResponseHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/PagedBaseResponseHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/MP.ApiDotNet6.Infra.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/MP.ApiDotNet6.Infra.Data.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/MP.ApiDotNet6.Infra.IoC.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/MP.ApiDotNet6.Infra.IoC.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +140,7 @@
       <workItem from="1717417502661" duration="5943000" />
       <workItem from="1717425765183" duration="2435000" />
       <workItem from="1717429700363" duration="7464000" />
+      <workItem from="1717457447085" duration="298000" />
     </task>
     <servers />
   </component>
