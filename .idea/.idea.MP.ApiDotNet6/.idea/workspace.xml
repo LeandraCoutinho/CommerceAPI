@@ -9,100 +9,103 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e55f798e-94b6-4be1-b07f-3b4279488a2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet7/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet7/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet7/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/Authentication/ITokenGenerator.cs" afterDir="false" />
+      
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CommerceAPI/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CommerceAPI/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CommerceAPI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommerceAPI.Domain/Authentication/ITokenGenerator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/indexLayout.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/projectSettingsUpdater.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Authentication/CurrentUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Api/Authentication/CurrentUser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/BaseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Api/Controllers/BaseController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/PersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Api/Controllers/PersonController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/PersonImageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Api/Controllers/PersonImageController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Api/Controllers/ProductController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/PurchaseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Api/Controllers/PurchaseController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/UserControllercs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Api/Controllers/UserControllercs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Api/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/MP.ApiDotNet6.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Api/MP.ApiDotNet7.Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Api/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/WeatherForecast.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Api/WeatherForecast.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Api/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Api/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/Class1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/PagedBaseResponseDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/DTOs/PagedBaseResponseDTO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/PersonDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/DTOs/PersonDTO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/PersonImageDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/DTOs/PersonImageDTO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/ProductDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/DTOs/ProductDTO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/PurchaseDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/DTOs/PurchaseDTO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/UserDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/DTOs/UserDTO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/Validations/PersonDTOValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/DTOs/Validations/PersonDTOValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/Validations/PersonImageDTOValidation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/DTOs/Validations/PersonImageDTOValidation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/Validations/ProductDTOValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/DTOs/Validations/ProductDTOValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/Validations/PurchaseDTOValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/DTOs/Validations/PurchaseDTOValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/Validations/PurchaseDetailDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/DTOs/Validations/PurchaseDetailDTO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/Validations/UserDTOValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/DTOs/Validations/UserDTOValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/ErrorValidation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/ErrorValidation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/MP.ApiDotNet6.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/MP.ApiDotNet7.Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Mapping/DomainToDtoMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/Mapping/DomainToDtoMapping.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Mapping/DtoToDomainMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/Mapping/DtoToDomainMapping.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/Interfaces/IPersonImageService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/Services/Interfaces/IPersonImageService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/Interfaces/IPersonService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/Services/Interfaces/IPersonService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/Interfaces/IProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/Services/Interfaces/IProductService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/Interfaces/IPurchaseService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/Services/Interfaces/IPurchaseService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/Interfaces/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/Services/Interfaces/IUserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/PersonImageService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/Services/PersonImageService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/PersonService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/Services/PersonService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/ProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/Services/ProductService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/PurchaseService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/Services/PurchaseService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/ResultService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/Services/ResultService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Application/Services/UserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Authentication/ICurrentUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/Authentication/ICurrentUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MP.ApiDotNet6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Authentication/CurrentUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Api/Authentication/CurrentUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/BaseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Api/Controllers/BaseController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/PersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Api/Controllers/PersonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/PersonImageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Api/Controllers/PersonImageController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Api/Controllers/ProductController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/PurchaseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Api/Controllers/PurchaseController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/UserControllercs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Api/Controllers/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Api/Controllers/WeatherForecastController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/MP.ApiDotNet6.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Api/CommerceAPI.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Api/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/WeatherForecast.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Api/WeatherForecast.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Api/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Api/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/Class1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/PagedBaseResponseDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/DTOs/PagedBaseResponseDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/PersonDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/DTOs/PersonDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/PersonImageDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/DTOs/PersonImageDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/ProductDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/DTOs/ProductDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/PurchaseDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/DTOs/PurchaseDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/UserDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/DTOs/UserDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/Validations/PersonDTOValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/DTOs/Validations/PersonDTOValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/Validations/PersonImageDTOValidation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/DTOs/Validations/PersonImageDTOValidation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/Validations/ProductDTOValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/DTOs/Validations/ProductDTOValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/Validations/PurchaseDTOValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/DTOs/Validations/PurchaseDTOValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/Validations/PurchaseDetailDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/DTOs/Validations/PurchaseDetailDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/DTOs/Validations/UserDTOValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/DTOs/Validations/UserDTOValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/ErrorValidation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/ErrorValidation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/MP.ApiDotNet6.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/CommerceAPI.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Mapping/DomainToDtoMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/Mapping/DomainToDtoMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Mapping/DtoToDomainMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/Mapping/DtoToDomainMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/Interfaces/IPersonImageService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/Services/Interfaces/IPersonImageService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/Interfaces/IPersonService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/Services/Interfaces/IPersonService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/Interfaces/IProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/Services/Interfaces/IProductService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/Interfaces/IPurchaseService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/Services/Interfaces/IPurchaseService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/Interfaces/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/Services/Interfaces/IUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/PersonImageService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/Services/PersonImageService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/PersonService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/Services/PersonService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/ProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/Services/ProductService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/PurchaseService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/Services/PurchaseService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/ResultService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/Services/ResultService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Application/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Application/Services/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Authentication/ICurrentUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Domain/Authentication/ICurrentUser.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Authentication/ITokenGenerator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/Class1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/Permission.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/Entities/Permission.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/Entities/Person.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/PersonImage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/Entities/PersonImage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/Entities/Product.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/Purchase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/Entities/Purchase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/Entities/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/UserPermission.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/Entities/UserPermission.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/FiltersDb/PersonFilterDb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/FiltersDb/PersonFilterDb.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Integrations/ISavePersonImage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/Integrations/ISavePersonImage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/MP.ApiDotNet6.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/MP.ApiDotNet7.Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IPersonImageRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/Repositories/IPersonImageRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IPersonRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/Repositories/IPersonRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/Repositories/IProductRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IPurchaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/Repositories/IPurchaseRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/Repositories/IUnitOfWork.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/Repositories/IUserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/PagedBaseRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/Repositories/PagedBaseRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/PagedBaseResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/Repositories/PagedBaseResponse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Validations/DomainValidationException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Domain/Validations/DomainValidationException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Authentication/TokenGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Infra.Data/Authentication/TokenGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Infra.Data/Class1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Context/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Infra.Data/Context/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Integrations/SavePersonImage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Infra.Data/Integrations/SavePersonImage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/MP.ApiDotNet6.Infra.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Infra.Data/MP.ApiDotNet7.Infra.Data.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PermissionMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Infra.Data/Maps/PermissionMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PersonImageMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Infra.Data/Maps/PersonImageMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PersonMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Infra.Data/Maps/PersonMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/ProductMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Infra.Data/Maps/ProductMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PurchaseMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Infra.Data/Maps/PurchaseMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/UserMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Infra.Data/Maps/UserMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/UserPermissionMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Infra.Data/Maps/UserPermissionMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/PagedBaseResponseHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Infra.Data/Repositories/PagedBaseResponseHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/PersonImageRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Infra.Data/Repositories/PersonImageRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/PersonRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Infra.Data/Repositories/PersonRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/ProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Infra.Data/Repositories/ProductRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/PurchaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Infra.Data/Repositories/PurchaseRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Infra.Data/Repositories/UnitOfWork.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.Infra.Data/Repositories/UserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/DependencyInjection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/MP.ApiDotNet6.Infra.IoC.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/MP.ApiDotNet6.Infra.IoC.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MP.ApiDotNet7.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Domain/Class1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/Permission.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Domain/Entities/Permission.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Domain/Entities/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/PersonImage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Domain/Entities/PersonImage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Domain/Entities/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/Purchase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Domain/Entities/Purchase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Domain/Entities/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Entities/UserPermission.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Domain/Entities/UserPermission.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/FiltersDb/PersonFilterDb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Domain/FiltersDb/PersonFilterDb.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Integrations/ISavePersonImage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Domain/Integrations/ISavePersonImage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/MP.ApiDotNet6.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Domain/CommerceAPI.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IPersonImageRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Domain/Repositories/IPersonImageRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IPersonRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Domain/Repositories/IPersonRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Domain/Repositories/IProductRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IPurchaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Domain/Repositories/IPurchaseRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Domain/Repositories/IUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Domain/Repositories/IUserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/PagedBaseRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Domain/Repositories/PagedBaseRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Repositories/PagedBaseResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Domain/Repositories/PagedBaseResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Domain/Validations/DomainValidationException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Domain/Validations/DomainValidationException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Authentication/TokenGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.Data/Authentication/TokenGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.Data/Class1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Context/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.Data/Context/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Integrations/SavePersonImage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.Data/Integrations/SavePersonImage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/MP.ApiDotNet6.Infra.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.Data/CommerceAPI.Infra.Data.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PermissionMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.Data/Maps/PermissionMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PersonImageMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.Data/Maps/PersonImageMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PersonMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.Data/Maps/PersonMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/ProductMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.Data/Maps/ProductMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/PurchaseMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.Data/Maps/PurchaseMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/UserMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.Data/Maps/UserMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Maps/UserPermissionMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.Data/Maps/UserPermissionMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/PagedBaseResponseHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.Data/Repositories/PagedBaseResponseHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/PersonImageRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.Data/Repositories/PersonImageRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/PersonRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.Data/Repositories/PersonRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/ProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.Data/Repositories/ProductRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/PurchaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.Data/Repositories/PurchaseRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.Data/Repositories/UnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.Data/Repositories/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.IoC/Class1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.IoC/DependencyInjection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/MP.ApiDotNet6.Infra.IoC.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Infra.IoC/CommerceAPI.Infra.IoC.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP.ApiDotNet6.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.sln" afterDir="false" />
+     
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,11 +119,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/MP.ApiDotNet6.Application/Class1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MP.ApiDotNet6.Domain/Class1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/leand/RiderProjects/MP.ApiDotNet6/MP.ApiDotNet6.Domain/Repositories/IUserRepository.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MP.ApiDotNet6.Infra.Data/Class1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MP.ApiDotNet6.Infra.IoC/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CommerceAPI.Api/Controllers/PersonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CommerceAPI.Api/Controllers/PersonImageController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CommerceAPI.Application/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CommerceAPI.Domain/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CommerceAPI.Infra.Data/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CommerceAPI.Infra.IoC/Class1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -139,10 +143,12 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.CommerceAPI.Api.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.CommerceAPI.Api: IIS Express.executor&quot;: &quot;Run&quot;,
     &quot;.NET Launch Settings Profile.MP.ApiDotNet6.Api.executor&quot;: &quot;Run&quot;,
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;fcdcc31d&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -158,10 +164,12 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.MP.ApiDotNet7.Api">
-    <configuration name="MP.ApiDotNet7.Api" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MP.ApiDotNet7.Api/MP.ApiDotNet7.Api.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
+
+  <component name="RunManager" selected=".NET Launch Settings Profile.CommerceAPI.Api">
+    <configuration name="CommerceAPI.Api" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/CommerceAPI.Api/CommerceAPI.Api.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
+
       <option name="LAUNCH_PROFILE_NAME" value="MP.ApiDotNet6.Api" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -174,9 +182,11 @@
         <option name="Build" />
       </method>
     </configuration>
-    <configuration name="MP.ApiDotNet7.Api: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MP.ApiDotNet7.Api/MP.ApiDotNet7.Api.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
+
+    <configuration name="CommerceAPI.Api: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/CommerceAPI.Api/CommerceAPI.Api.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
+
       <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -190,8 +200,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue=".NET Launch Settings Profile.MP.ApiDotNet7.Api" />
-      <item itemvalue=".NET Launch Settings Profile.MP.ApiDotNet7.Api: IIS Express" />
+<item itemvalue=".NET Launch Settings Profile.CommerceAPI.Api" />
+<item itemvalue=".NET Launch Settings Profile.CommerceAPI.Api: IIS Express" />
+
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -233,7 +244,9 @@
       <workItem from="1717417502661" duration="5943000" />
       <workItem from="1717425765183" duration="2435000" />
       <workItem from="1717429700363" duration="7464000" />
-      <workItem from="1717457447085" duration="1036000" />
+
+      <workItem from="1717532298664" duration="2889000" />
+
     </task>
     <servers />
   </component>
