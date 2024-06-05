@@ -8,7 +8,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e55f798e-94b6-4be1-b07f-3b4279488a2a" name="Changes" comment="" />
+    <list default="true" id="e55f798e-94b6-4be1-b07f-3b4279488a2a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CommerceAPI/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CommerceAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommerceAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommerceAPI.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommerceAPI.Api/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +50,7 @@
     ".NET Launch Settings Profile.MP.ApiDotNet6.Api.executor": "Run",
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "dd72f573",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -135,6 +139,7 @@
       <workItem from="1717429700363" duration="7464000" />
       <workItem from="1717532298664" duration="1130000" />
       <workItem from="1717535952905" duration="16000" />
+      <workItem from="1717606466763" duration="115000" />
     </task>
     <servers />
   </component>

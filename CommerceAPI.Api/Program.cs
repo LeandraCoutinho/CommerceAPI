@@ -21,7 +21,7 @@ builder.Services.AddSwaggerGen(c =>
     {
         Title = "CommerceAPI",
         Version = "v1",
-        Description = "API com cadastra pessoa, produto e compras!"
+        Description = "API que cadastra pessoa, produto e compras!"
     });
     c.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
     {
